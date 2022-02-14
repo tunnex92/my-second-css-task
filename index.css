@@ -5,6 +5,23 @@ body {
   line-height: 1.5; text-align: center; color: #3a3a3a; 
   margin: 0; } 
 
+  #nor{
+    position: relative;
+    left: 5px;
+    right: 5px;
+    background-repeat: no-repeat repeat;
+    background-blend-mode: lighten;  
+} 
+#pix2{
+    position:absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 180px; 
+    padding: 0px;   
+}
+
   h1 { font-size: 4rem; 
        margin-bottom: 0;
   }
